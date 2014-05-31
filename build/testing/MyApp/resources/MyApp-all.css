@@ -4182,6 +4182,27 @@ img {
   position: absolute;
 }
 
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/ProgressBar.scss */
+.x-progress {
+  position: relative;
+  border-style: solid;
+  overflow: hidden;
+}
+
+/* line 7, ../../../../ext/packages/ext-theme-base/sass/src/ProgressBar.scss */
+.x-progress-bar {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 100%;
+}
+
+/* line 14, ../../../../ext/packages/ext-theme-base/sass/src/ProgressBar.scss */
+.x-progress-text {
+  overflow: hidden;
+  position: absolute;
+}
+
 /* line 1, ../../../../ext/packages/ext-theme-base/sass/src/layout/component/Dock.scss */
 .x-docked {
   position: absolute !important;
@@ -4647,6 +4668,192 @@ img {
   background: transparent;
 }
 
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-item-label {
+  display: block;
+}
+
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-item-label-right {
+  text-align: right;
+}
+
+/* line 9, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-item-label-top {
+  display: block;
+  zoom: 1;
+}
+
+/* line 15, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-invalid-icon {
+  overflow: hidden;
+}
+/* line 17, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-invalid-icon ul {
+  display: none;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/TextArea.scss */
+.x-form-textarea {
+  overflow: auto;
+  resize: none;
+}
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/field/TextArea.scss */
+.x-safari.x-mac .x-form-textarea {
+  margin-bottom: -2px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Display.scss */
+.x-form-display-field-body {
+  vertical-align: top;
+}
+
+/*misc*/
+/* line 4, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-webkit *:focus {
+  outline: none !important;
+}
+
+/* line 11, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-form-item {
+  vertical-align: top;
+  table-layout: fixed;
+}
+
+/* line 17, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-form-item-body {
+  position: relative;
+}
+
+/* line 33, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-form-form-item td {
+  border-top: 1px solid transparent;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-form-trigger {
+  cursor: pointer;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-item-disabled .x-form-trigger {
+  cursor: default;
+}
+
+/* line 10, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-trigger-noedit {
+  cursor: default;
+}
+
+/* line 14, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap {
+  vertical-align: top;
+  border-collapse: separate;
+}
+
+/* line 2, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Spinner.scss */
+.x-form-spinner-up,
+.x-form-spinner-down {
+  font-size: 0;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker {
+  position: relative;
+}
+
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker-inner {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+}
+
+/* line 11, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker-cell {
+  padding: 0;
+}
+
+/* line 15, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker-header {
+  position: relative;
+  zoom: 1;
+}
+
+/* line 20, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker-arrow {
+  position: absolute;
+  outline: none;
+  font-size: 0;
+}
+
+/* line 26, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker-column-header {
+  padding: 0;
+}
+
+/* line 30, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-datepicker-date {
+  display: block;
+  zoom: 1;
+  text-decoration: none;
+}
+
+/* line 36, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 42, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-body {
+  height: 100%;
+}
+
+/* line 47, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-months,
+.x-monthpicker-years {
+  float: left;
+  height: 100%;
+}
+
+/* line 52, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-item {
+  float: left;
+}
+
+/* line 56, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-item-inner {
+  display: block;
+  text-decoration: none;
+}
+
+/* line 61, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-button-ct {
+  float: left;
+  text-align: center;
+}
+
+/* line 66, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-button {
+  display: inline-block;
+  outline: none;
+  font-size: 0;
+}
+
+/* line 72, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-monthpicker-buttons {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/src/picker/Date.scss */
+.x-strict .x-ie6 .x-monthpicker-buttons {
+  bottom: -1px;
+}
+
 /* line 1, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Fit.scss */
 .x-fit-item {
   position: relative;
@@ -4999,6 +5206,101 @@ a.x-tab {
   background-image: url(images/grid/loading.gif);
   background-repeat: no-repeat;
   background-position: 0 center;
+}
+
+/**
+ * Creates a visual theme for an Ext.ProgressBar
+ *
+ * @param {string} $ui-label
+ * The name of the UI being created. Can not included spaces or special punctuation
+ * (used in CSS class names).
+ *
+ * @param {color} [$ui-border-color=$progress-border-color]
+ * The border-color of the ProgressBar
+ *
+ * @param {color} [$ui-background-color=$progress-background-color]
+ * The background-color of the ProgressBar
+ *
+ * @param {color} [$ui-bar-background-color=$progress-bar-background-color]
+ * The background-color of the ProgressBar's moving element
+ *
+ * @param {string/list} [$ui-bar-background-gradient=$progress-bar-background-gradient]
+ * The background-gradient of the ProgressBar's moving element. Can be either the name of
+ * a predefined gradient or a list of color stops. Used as the `$type` parameter for
+ * {@link Global_CSS#background-gradient}.
+ *
+ * @param {color} [$ui-color-front=$progress-text-color-front]
+ * The color of the ProgressBar's text when in front of the ProgressBar's moving element
+ *
+ * @param {color} [$ui-color-back=$progress-text-color-back]
+ * The color of the ProgressBar's text when the ProgressBar's 'moving element is not under it
+ *
+ * @param {number} [$ui-height=$progress-height]
+ * The height of the ProgressBar
+ *
+ * @param {number} [$ui-border-width=$progress-border-width]
+ * The border-width of the ProgressBar
+ *
+ * @param {number} [$ui-border-radius=$progress-border-radius]
+ * The border-radius of the ProgressBar
+ *
+ * @param {string} [$ui-text-text-align=$progress-text-text-align]
+ * The text-align of the ProgressBar's text
+ *
+ * @param {number} [$ui-text-font-size=$progress-text-font-size]
+ * The font-size of the ProgressBar's text
+ *
+ * @param {string} [$ui-text-font-weight=$progress-text-font-weight]
+ * The font-weight of the ProgressBar's text
+ *
+ * @member Ext.ProgressBar
+ */
+/* line 67, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default {
+  background-color: #e0e8f3;
+  border-width: 1px;
+  height: 20px;
+  border-color: #6594cf;
+  /*<if slicer>*/
+  /*</if slicer>*/
+  /* */
+}
+/* line 72, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-content-box .x-progress-default {
+  height: 18px;
+}
+/* line 84, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default .x-progress-bar-default {
+  background-image: none;
+  background-color: #73a3e0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b2ccee), color-stop(50%, #88b1e5), color-stop(51%, #73a3e0), color-stop(100%, #5e96db));
+  background-image: -webkit-linear-gradient(top, #b2ccee, #88b1e5 50%, #73a3e0 51%, #5e96db);
+  background-image: -moz-linear-gradient(top, #b2ccee, #88b1e5 50%, #73a3e0 51%, #5e96db);
+  background-image: -o-linear-gradient(top, #b2ccee, #88b1e5 50%, #73a3e0 51%, #5e96db);
+  background-image: linear-gradient(top, #b2ccee, #88b1e5 50%, #73a3e0 51%, #5e96db);
+}
+/* line 92, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-nlg .x-progress-default .x-progress-bar-default {
+  background: repeat-x;
+  background-image: url(images/progress/progress-default-bg.gif);
+}
+/* line 99, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default .x-progress-text {
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  line-height: 18px;
+}
+/* line 107, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default .x-progress-text-back {
+  color: #396295;
+  line-height: 18px;
+}
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-progress-default .x-progress-bar-default:after {
+  display: none;
+  content: "x-slicer:bg:url(images/progress/progress-default-bg.gif)";
 }
 
 /**
@@ -10762,6 +11064,206 @@ body.x-nbr .x-tip-default-frameInfo {
   color: #2a2a2a;
 }
 
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-mc {
+  background-color: white;
+}
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-tip-form-invalid {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-tip-form-invalid-frameInfo {
+  font-family: th-5-5-5-5-1-1-1-1-4-4-4-4;
+}
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tl {
+  background-position: 0 -10px;
+}
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tr {
+  background-position: right -15px;
+}
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-bl {
+  background-position: 0 -20px;
+}
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-br {
+  background-position: right -25px;
+}
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-ml {
+  background-position: 0 top;
+}
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-mr {
+  background-position: right top;
+}
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tc {
+  background-position: 0 0;
+}
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-bc {
+  background-position: 0 -5px;
+}
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tr,
+.x-tip-form-invalid-br,
+.x-tip-form-invalid-mr {
+  padding-right: 5px;
+}
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tl,
+.x-tip-form-invalid-bl,
+.x-tip-form-invalid-ml {
+  padding-left: 5px;
+}
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tc {
+  height: 5px;
+}
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-bc {
+  height: 5px;
+}
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tl,
+.x-tip-form-invalid-bl,
+.x-tip-form-invalid-tr,
+.x-tip-form-invalid-br,
+.x-tip-form-invalid-tc,
+.x-tip-form-invalid-bc,
+.x-tip-form-invalid-ml,
+.x-tip-form-invalid-mr {
+  zoom: 1;
+  background-image: url(images/tip/tip-form-invalid-corners.gif);
+}
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-ml,
+.x-tip-form-invalid-mr {
+  zoom: 1;
+  background-image: url(images/tip/tip-form-invalid-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-mc {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-tip-form-invalid-tl,
+.x-strict .x-ie7 .x-tip-form-invalid-bl {
+  position: relative;
+  right: 0;
+}
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-tip-form-invalid:after {
+  display: none;
+  content: "x-slicer:corners:url(images/tip/tip-form-invalid-corners.gif), sides:url(images/tip/tip-form-invalid-sides.gif)";
+}
+
+/*</if slicer>*/
+/* */
+/* line 100, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-form-invalid {
+  border-color: #a1311f;
+  -webkit-box-shadow: #d87166 0 1px 0px 0 inset, #d87166 0 -1px 0px 0 inset, #d87166 -1px 0 0px 0 inset, #d87166 1px 0 0px 0 inset;
+  -moz-box-shadow: #d87166 0 1px 0px 0 inset, #d87166 0 -1px 0px 0 inset, #d87166 -1px 0 0px 0 inset, #d87166 1px 0 0px 0 inset;
+  box-shadow: #d87166 0 1px 0px 0 inset, #d87166 0 -1px 0px 0 inset, #d87166 -1px 0 0px 0 inset, #d87166 1px 0 0px 0 inset;
+}
+/* line 109, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-form-invalid .x-tool-img {
+  background-color: white;
+}
+
+/* line 124, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-form-invalid .x-tool-after-title {
+  margin: 0 0 0 6px;
+}
+/* line 134, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-form-invalid .x-tool-before-title {
+  margin: 0 6px 0 0;
+}
+
+/* line 145, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-body-form-invalid {
+  padding: 3px 3px 0 3px;
+}
+
+/* line 149, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-text-container-form-invalid {
+  color: #444444;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* line 155, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid {
+  padding: 3px 3px 3px 22px;
+  color: #444444;
+  font-size: 11px;
+  font-weight: normal;
+}
+/* line 160, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid a {
+  color: #2a2a2a;
+}
+
+/* line 265, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid {
+  background: 1px 1px no-repeat;
+  background-image: url(images/form/exclamation.gif);
+}
+/* line 268, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid li {
+  margin-bottom: 4px;
+}
+/* line 270, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid li.last {
+  margin-bottom: 0;
+}
+
 /**
  * Creates a visual theme for a Window
  *
@@ -12348,6 +12850,658 @@ body.x-nbr .x-window-header-default-collapsed-left-frameInfo {
   border-width: 0 !important;
 }
 
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-form-invalid-under {
+  padding: 2px 2px 2px 20px;
+  color: #c0272b;
+  font: normal 11px tahoma, arial, verdana, sans-serif;
+  line-height: 16px;
+  background: no-repeat 0 2px;
+  background-image: url(images/form/exclamation.gif);
+}
+
+/* line 14, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+div.x-lbl-top-err-icon {
+  margin-bottom: 3px;
+}
+
+/* line 18, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-form-invalid-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 1px;
+  background-image: url(images/form/exclamation.gif);
+  background-repeat: no-repeat;
+}
+
+/* line 26, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-form-item-label {
+  color: black;
+  font: normal 12px/14px tahoma, arial, verdana, sans-serif;
+  margin-top: 4px;
+}
+/* line 31, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-toolbar-item .x-form-item-label {
+  font: normal 11px/13px tahoma, arial, verdana, sans-serif;
+  margin-top: 4px;
+}
+
+/* line 45, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-autocontainer-form-item,
+.x-anchor-form-item,
+.x-vbox-form-item,
+.x-table-form-item {
+  margin-bottom: 5px;
+}
+
+/* line 53, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-ie6 .x-form-form-item td {
+  border-top-width: 0;
+}
+/* line 59, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-ie6 td.x-form-item-pad {
+  height: 5px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-form-field {
+  color: black;
+}
+
+/* line 6, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-form-item,
+.x-form-field {
+  font: normal 12px tahoma, arial, verdana, sans-serif;
+}
+
+/* line 21, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-form-type-text textarea.x-form-invalid-field, .x-form-type-text input.x-form-invalid-field,
+.x-form-type-password textarea.x-form-invalid-field,
+.x-form-type-password input.x-form-invalid-field,
+.x-form-type-number textarea.x-form-invalid-field,
+.x-form-type-number input.x-form-invalid-field,
+.x-form-type-email textarea.x-form-invalid-field,
+.x-form-type-email input.x-form-invalid-field,
+.x-form-type-search textarea.x-form-invalid-field,
+.x-form-type-search input.x-form-invalid-field,
+.x-form-type-tel textarea.x-form-invalid-field,
+.x-form-type-tel input.x-form-invalid-field {
+  background-color: white;
+  background-image: url(images/grid/invalid_line.gif);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  border-color: #cc3300;
+}
+
+/* line 37, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-item-disabled .x-form-item-label,
+.x-item-disabled .x-form-field,
+.x-item-disabled .x-form-display-field,
+.x-item-disabled .x-form-cb-label,
+.x-item-disabled .x-form-trigger {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-form-text {
+  color: black;
+  padding: 1px 3px 2px 3px;
+  background: white repeat-x 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b5b8c8;
+  background-image: url(images/form/text-bg.gif);
+  height: 22px;
+  line-height: 17px;
+}
+/* line 14, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-field-toolbar .x-form-text {
+  height: 20px;
+  line-height: 15px;
+}
+/* line 21, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-content-box .x-form-text {
+  height: 17px;
+}
+/* line 26, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-content-box .x-field-toolbar .x-form-text {
+  height: 15px;
+}
+
+/* line 34, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-form-focus {
+  border-color: #7eadd9;
+}
+
+/* line 39, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-form-empty-field,
+textarea.x-form-empty-field {
+  color: gray;
+}
+
+/* line 48, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-quirks .x-ie .x-form-text,
+.x-ie7m .x-form-text {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/TextArea.scss */
+.x-form-textarea {
+  line-height: normal;
+  height: auto;
+  background-image: url(images/form/text-bg.gif);
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Display.scss */
+.x-form-display-field-body {
+  height: 22px;
+}
+/* line 5, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Display.scss */
+.x-toolbar-item .x-form-display-field-body {
+  height: 20px;
+}
+
+/* line 11, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Display.scss */
+.x-form-display-field {
+  font: normal 12px/14px tahoma, arial, verdana, sans-serif;
+  color: black;
+  margin-top: 4px;
+}
+/* line 17, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Display.scss */
+.x-toolbar-item .x-form-display-field {
+  margin-top: 4px;
+  font: normal 11px/13px tahoma, arial, verdana, sans-serif;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box .x-window-body {
+  background-color: #ced9e7;
+  border-width: 0;
+}
+
+/* line 13, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-info,
+.x-message-box-warning,
+.x-message-box-question,
+.x-message-box-error {
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/* line 29, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-info {
+  background-image: url(images/shared/icon-info.gif);
+}
+
+/* line 33, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-warning {
+  background-image: url(images/shared/icon-warning.gif);
+}
+
+/* line 37, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-question {
+  background-image: url(images/shared/icon-question.gif);
+}
+
+/* line 41, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-error {
+  background-image: url(images/shared/icon-error.gif);
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger {
+  background: url(images/form/trigger.gif);
+  width: 17px;
+  border-width: 0 0 1px;
+  border-color: #b5b8c8;
+  border-style: solid;
+}
+
+/* line 18, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-trigger-cell {
+  background-color: white;
+  width: 17px;
+}
+
+/* line 23, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-over {
+  background-position: -17px 0;
+  border-color: #7eadd9;
+}
+
+/* line 30, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap-focus .x-form-trigger {
+  background-position: -51px 0;
+  border-color: #7eadd9;
+}
+
+/* line 37, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap-focus .x-form-trigger-over {
+  background-position: -68px 0;
+}
+
+/* line 42, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-click,
+.x-form-trigger-wrap-focus .x-form-trigger-click {
+  background-position: -34px 0;
+}
+
+/* line 49, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-clear-trigger {
+  background-image: url(images/form/clear-trigger.gif);
+}
+
+/* line 59, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-search-trigger {
+  background-image: url(images/form/search-trigger.gif);
+}
+
+/* line 73, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-quirks .prefixie6 .x-form-trigger-input-cell {
+  height: 22px;
+}
+/* line 77, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-quirks .prefixie6 .x-field-toolbar .x-form-trigger-input-cell {
+  height: 20px;
+}
+
+/* line 3, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+div.x-form-spinner-up,
+div.x-form-spinner-down {
+  background-image: url(images/form/spinner.gif);
+  background-color: white;
+  width: 17px;
+  height: 11px;
+}
+
+/* line 19, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-spinner-down {
+  background-position: 0 -11px;
+}
+
+/* line 23, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap-focus .x-form-spinner-down {
+  background-position: -51px -11px;
+}
+
+/* line 26, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap .x-form-spinner-down-over {
+  background-position: -17px -11px;
+}
+
+/* line 29, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap-focus .x-form-spinner-down-over {
+  background-position: -68px -11px;
+}
+
+/* line 32, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap .x-form-spinner-down-click {
+  background-position: -34px -11px;
+}
+
+/* line 41, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-toolbar-item div.x-form-spinner-up,
+.x-toolbar-item div.x-form-spinner-down {
+  background-image: url(images/form/spinner-small.gif);
+  height: 10px;
+}
+/* line 45, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-toolbar-item .x-form-spinner-down {
+  background-position: 0 -10px;
+}
+/* line 48, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-toolbar-item .x-form-trigger-wrap-focus .x-form-spinner-down {
+  background-position: -51px -10px;
+}
+/* line 51, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-toolbar-item .x-form-trigger-wrap .x-form-spinner-down-over {
+  background-position: -17px -10px;
+}
+/* line 54, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-toolbar-item .x-form-trigger-wrap-focus .x-form-spinner-down-over {
+  background-position: -68px -10px;
+}
+/* line 57, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-toolbar-item .x-form-trigger-wrap .x-form-spinner-down-click {
+  background-position: -34px -10px;
+}
+
+/* line 9, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1b376c;
+  background-color: white;
+  width: 177px;
+}
+
+/* line 19, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-header {
+  padding: 3px 6px;
+  text-align: center;
+  background-image: none;
+  background-color: #23427c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #264888), color-stop(100%, #1f3a6c));
+  background-image: -webkit-linear-gradient(top, #264888, #1f3a6c);
+  background-image: -moz-linear-gradient(top, #264888, #1f3a6c);
+  background-image: -o-linear-gradient(top, #264888, #1f3a6c);
+  background-image: linear-gradient(top, #264888, #1f3a6c);
+}
+
+/* line 32, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-arrow {
+  width: 15px;
+  height: 15px;
+  top: 6px;
+  cursor: pointer;
+  background-color: #23427c;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+/* line 50, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+a.x-datepicker-arrow:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 55, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-next {
+  right: 6px;
+  background-image: url(images/shared/right-btn.gif);
+}
+
+/* line 60, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-prev {
+  left: 6px;
+  background-image: url(images/shared/left-btn.gif);
+}
+
+/* line 76, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-month .x-btn,
+.x-datepicker-month .x-btn .x-btn-tc,
+.x-datepicker-month .x-btn .x-btn-tl,
+.x-datepicker-month .x-btn .x-btn-tr,
+.x-datepicker-month .x-btn .x-btn-mc,
+.x-datepicker-month .x-btn .x-btn-ml,
+.x-datepicker-month .x-btn .x-btn-mr,
+.x-datepicker-month .x-btn .x-btn-bc,
+.x-datepicker-month .x-btn .x-btn-bl,
+.x-datepicker-month .x-btn .x-btn-br {
+  background: transparent;
+  border-width: 0 !important;
+}
+/* line 83, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-month .x-btn-inner {
+  color: white;
+}
+/* line 88, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-month .x-btn-split-right {
+  background-image: url(images/button/s-arrow-light.gif);
+  padding-right: 12px;
+}
+
+/* line 94, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-column-header {
+  width: 25px;
+  color: #233d6d;
+  font: normal 10px tahoma, arial, verdana, sans-serif;
+  text-align: right;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #b2d1f5;
+  background-image: none;
+  background-color: #dfecfb;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf4fd), color-stop(100%, #cde1f9));
+  background-image: -webkit-linear-gradient(top, #edf4fd, #cde1f9);
+  background-image: -moz-linear-gradient(top, #edf4fd, #cde1f9);
+  background-image: -o-linear-gradient(top, #edf4fd, #cde1f9);
+  background-image: linear-gradient(top, #edf4fd, #cde1f9);
+}
+
+/* line 113, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-column-header-inner {
+  line-height: 19px;
+  padding: 0 7px 0 0;
+}
+
+/* line 118, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-cell {
+  text-align: right;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+/* line 128, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-date {
+  padding: 0 4px 0 0;
+  font: normal 11px tahoma, arial, verdana, sans-serif;
+  color: black;
+  cursor: pointer;
+  line-height: 18px;
+}
+
+/* line 138, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+a.x-datepicker-date:hover {
+  color: black;
+  background-color: #ddecfe;
+}
+
+/* line 143, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-selected {
+  border-style: solid;
+  border-color: #8db2e3;
+}
+/* line 146, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-selected .x-datepicker-date {
+  background-color: #dae5f3;
+  font-weight: bold;
+}
+
+/* line 152, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-today {
+  border-color: darkred;
+  border-style: solid;
+}
+
+/* line 159, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-prevday .x-datepicker-date,
+.x-datepicker-nextday .x-datepicker-date {
+  color: #aaaaaa;
+}
+
+/* line 166, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-disabled a.x-datepicker-date {
+  background-color: #eeeeee;
+  cursor: default;
+  color: #bbbbbb;
+}
+
+/* line 174, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-disabled a.x-datepicker-date:hover {
+  background-color: #eeeeee;
+}
+
+/* line 179, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-footer,
+.x-monthpicker-buttons {
+  padding: 4px 0;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #b2d1f5;
+  background-image: none;
+  background-color: #dfecfb;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dee8f5), color-stop(49%, #d1dff0), color-stop(51%, #c7d8ed), color-stop(100%, #cbdaee));
+  background-image: -webkit-linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee);
+  background-image: -moz-linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee);
+  background-image: -o-linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee);
+  background-image: linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee);
+  text-align: center;
+}
+/* line 195, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-datepicker-footer .x-btn,
+.x-monthpicker-buttons .x-btn {
+  margin: 0 2px 0 2px;
+}
+
+/* line 201, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker {
+  width: 177px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1b376c;
+  background-color: white;
+}
+
+/* line 211, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-months {
+  border-width: 0 1px 0 0;
+  border-color: #1b376c;
+  border-style: solid;
+  width: 87px;
+}
+/* line 220, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-months .x-monthpicker-item {
+  width: 43px;
+}
+
+/* line 225, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-years {
+  width: 88px;
+}
+/* line 228, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-years .x-monthpicker-item {
+  width: 44px;
+}
+
+/* line 233, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-item {
+  margin: 5px 0 4px;
+  font: normal 11px tahoma, arial, verdana, sans-serif;
+  text-align: center;
+}
+
+/* line 239, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-item-inner {
+  margin: 0 5px 0 5px;
+  color: #15428b;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+/* line 254, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+a.x-monthpicker-item-inner:hover {
+  background-color: #ddecfe;
+}
+
+/* line 258, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-selected {
+  background-color: #dae5f3;
+  border-style: solid;
+  border-color: #8db2e3;
+}
+
+/* line 264, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav {
+  height: 27px;
+}
+
+/* line 268, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-button-ct {
+  width: 44px;
+}
+
+/* line 272, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-button {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  margin-top: 6px;
+  background-color: white;
+}
+
+/* line 294, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-next {
+  background-image: url(images/tools/tool-sprites.gif);
+  background-position: 0 -120px;
+}
+
+/* line 299, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-next-over {
+  background-position: -15px -120px;
+}
+
+/* line 303, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-prev {
+  background-image: url(images/tools/tool-sprites.gif);
+  background-position: 0 -105px;
+}
+
+/* line 308, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-yearnav-prev-over {
+  background-position: -15px -105px;
+}
+
+/* line 313, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-small .x-monthpicker-item {
+  margin: 2px 0 2px;
+}
+/* line 317, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-small .x-monthpicker-item-inner {
+  margin: 0 5px 0 5px;
+}
+/* line 321, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-small .x-monthpicker-yearnav {
+  height: 22px;
+}
+/* line 325, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-monthpicker-small .x-monthpicker-yearnav-button {
+  margin-top: 3px;
+}
+
+/* line 334, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-nlg .x-datepicker-header {
+  background-image: url(images/datepicker/datepicker-header-bg.gif);
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+/* line 343, ../../../../ext/packages/ext-theme-neutral/sass/src/picker/Date.scss */
+.x-nlg .x-datepicker-footer,
+.x-nlg .x-monthpicker-buttons {
+  background-image: url(images/datepicker/datepicker-footer-bg.gif);
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-datepicker-header:after {
+  display: none;
+  content: "x-slicer:bg:url(images/datepicker/datepicker-header-bg.gif)";
+}
+
+/*</if slicer>*/
+/* */
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-datepicker-footer:after {
+  display: none;
+  content: "x-slicer:bg:url(images/datepicker/datepicker-footer-bg.gif)";
+}
+
+/*</if slicer>*/
+/* */
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Date.scss */
+.x-form-date-trigger {
+  background-image: url(images/form/date-trigger.gif);
+}
+
 /* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/resizer/Splitter.scss */
 .x-collapse-el {
   cursor: pointer;
@@ -12605,6 +13759,12 @@ body.x-nbr .x-window-header-default-collapsed-left-frameInfo {
 /* line 294, ../../../../ext/packages/ext-theme-neutral/sass/src/menu/Menu.scss */
 .x-menu-date-item {
   border-color: #99BBE8;
+}
+
+/* line 300, ../../../../ext/packages/ext-theme-neutral/sass/src/menu/Menu.scss */
+.x-menu-item .x-form-item-label {
+  font-size: 11px;
+  color: #222222;
 }
 
 /* line 306, ../../../../ext/packages/ext-theme-neutral/sass/src/menu/Menu.scss */
@@ -15322,6 +16482,40 @@ body.x-nbr .x-tab-default-right-frameInfo {
 /* line 130, ../../../../ext/packages/ext-theme-classic/sass/src/dom/Element.scss */
 .x-box-blue .x-box-mr {
   background-image: url(images/box/r-blue.gif);
+}
+
+/* line 2, ../../../../ext/packages/ext-theme-classic/sass/src/window/MessageBox.scss */
+.x-message-box .x-msg-box-wait {
+  background-image: url(images/shared/blue-loading.gif);
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-classic/sass/src/form/field/Trigger.scss */
+.x-form-trigger {
+  height: 22px;
+}
+/* line 5, ../../../../ext/packages/ext-theme-classic/sass/src/form/field/Trigger.scss */
+.x-content-box .x-form-trigger {
+  height: 21px;
+}
+
+/* line 12, ../../../../ext/packages/ext-theme-classic/sass/src/form/field/Trigger.scss */
+.x-field-toolbar .x-form-trigger {
+  height: 20px;
+}
+/* line 16, ../../../../ext/packages/ext-theme-classic/sass/src/form/field/Trigger.scss */
+.x-content-box .x-field-toolbar .x-form-trigger {
+  height: 19px;
+}
+
+/* line 4, ../../../../ext/packages/ext-theme-classic/sass/src/form/field/Spinner.scss */
+.x-content-box div.x-form-spinner-up,
+.x-content-box div.x-form-spinner-down {
+  height: 10px;
+}
+/* line 10, ../../../../ext/packages/ext-theme-classic/sass/src/form/field/Spinner.scss */
+.x-content-box .x-toolbar-item div.x-form-spinner-up,
+.x-content-box .x-toolbar-item div.x-form-spinner-down {
+  height: 9px;
 }
 
 /* line 5, ../../../../ext/packages/ext-theme-classic/sass/src/resizer/Resizer.scss */

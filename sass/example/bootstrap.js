@@ -831,7 +831,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyApp.Application": [],
   "MyApp.controller.Main": [],
   "MyApp.view.Main": [],
-  "MyApp.view.Viewport": []
+  "MyApp.view.Viewport": [],
+  "MyApp.view.sub.FormDemo": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1824,7 +1825,10 @@ Ext.ClassManager.addNameAliasMappings({
   "MyApp.view.Main": [
     "widget.app-main"
   ],
-  "MyApp.view.Viewport": []
+  "MyApp.view.Viewport": [],
+  "MyApp.view.sub.FormDemo": [
+    "widget.sub-formdemo"
+  ]
 });
 Ext.setVersion("ext-theme-base", "4.2.1");
 Ext.setVersion("ext-theme-classic", "4.2.1");
