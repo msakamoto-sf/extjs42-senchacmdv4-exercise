@@ -63,6 +63,7 @@
 /* including package ext-theme-neutral */
 /* including package ext-theme-neptune */
 /* including package my-custom-theme */
+/* including package MyApp */
 /* including package my-custom-theme */
 /* including package ext-theme-neptune */
 /**
@@ -8905,7 +8906,7 @@ body.x-nbr .x-btn-default-toolbar-large-frameInfo {
 
 /* line 260, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-panel-header-text-container-default {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   font-weight: bold;
   font-family: Times New Roman;
@@ -9015,14 +9016,14 @@ body.x-nbr .x-btn-default-toolbar-large-frameInfo {
 }
 /* line 556, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-panel-header-default .x-panel-header-glyph {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   line-height: 16px;
   opacity: 0.5;
 }
 /* line 572, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-ie8m .x-panel-header-default .x-panel-header-glyph {
-  color: #98b79f;
+  color: #986b20;
 }
 
 /* line 580, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
@@ -9223,7 +9224,7 @@ body.x-nbr .x-btn-default-toolbar-large-frameInfo {
 
 /* line 260, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-panel-header-text-container-default-framed {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   font-weight: bold;
   font-family: Times New Roman;
@@ -10627,14 +10628,14 @@ body.x-nbr .x-panel-header-default-framed-collapsed-left-frameInfo {
 }
 /* line 556, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-panel-header-default-framed .x-panel-header-glyph {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   line-height: 16px;
   opacity: 0.5;
 }
 /* line 572, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-ie8m .x-panel-header-default-framed .x-panel-header-glyph {
-  color: #98b79f;
+  color: #986b20;
 }
 
 /* line 580, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
@@ -11667,7 +11668,7 @@ body.x-nbr .x-window-default-frameInfo {
 
 /* line 233, ../../../../ext/packages/ext-theme-neutral/sass/src/window/Window.scss */
 .x-window-header-text-container-default {
-  color: white;
+  color: #ff6600;
   font-weight: bold;
   line-height: 15px;
   font-family: Times New Roman;
@@ -12836,21 +12837,21 @@ body.x-nbr .x-window-header-default-collapsed-left-frameInfo {
 .x-window-header-default .x-window-header-icon {
   width: 16px;
   height: 16px;
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   line-height: 16px;
   background-position: center center;
 }
 /* line 364, ../../../../ext/packages/ext-theme-neutral/sass/src/window/Window.scss */
 .x-window-header-default .x-window-header-glyph {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   line-height: 16px;
   opacity: 0.5;
 }
 /* line 380, ../../../../ext/packages/ext-theme-neutral/sass/src/window/Window.scss */
 .x-ie8m .x-window-header-default .x-window-header-glyph {
-  color: #a7c2ad;
+  color: #a7752e;
 }
 
 /* line 388, ../../../../ext/packages/ext-theme-neutral/sass/src/window/Window.scss */
@@ -17740,14 +17741,14 @@ body.x-nbr .x-btn-plain-toolbar-large-frameInfo {
 }
 /* line 556, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-panel-header-light .x-panel-header-glyph {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   line-height: 16px;
   opacity: 0.5;
 }
 /* line 572, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-ie8m .x-panel-header-light .x-panel-header-glyph {
-  color: #f0f3f1;
+  color: #f0a771;
 }
 
 /* line 580, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
@@ -19353,14 +19354,14 @@ body.x-nbr .x-panel-header-light-framed-collapsed-left-frameInfo {
 }
 /* line 556, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-panel-header-light-framed .x-panel-header-glyph {
-  color: white;
+  color: #ff6600;
   font-size: 16px;
   line-height: 16px;
   opacity: 0.5;
 }
 /* line 572, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
 .x-ie8m .x-panel-header-light-framed .x-panel-header-glyph {
-  color: #f0f3f1;
+  color: #f0a771;
 }
 
 /* line 580, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
