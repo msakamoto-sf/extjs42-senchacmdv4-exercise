@@ -1,3 +1,3 @@
-# ext-theme-classic/resources
+# my-custom-theme/resources
 
 This folder contains static resources (typically an `"images"` folder as well).
