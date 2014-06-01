@@ -21,7 +21,7 @@ Ext.define('MyApp.view.Main', {
         collapsible: true
     },{
         region: 'center',
-        xtype: 'sub-formdemo',
+        xtype: 'sub-formdemo'
     },{
         region: 'south',
         xtype: 'tabpanel',
