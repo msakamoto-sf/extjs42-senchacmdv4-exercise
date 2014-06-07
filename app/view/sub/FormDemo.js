@@ -44,6 +44,8 @@ Ext.define("MyApp.view.sub.FormDemo", {
         $jq.each(greetings, function(k, v) {
             console.log('greetings[' + k + ']=' + v);
         });
+        var myKlass = new MyKlass('Bob', 'Alice');
+        console.log(myKlass.greeting('Hello'));
       }
     },
     {
