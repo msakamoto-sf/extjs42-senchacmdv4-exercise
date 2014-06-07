@@ -4,6 +4,9 @@
     Sencha Cmd when upgrading.
 */
 
+jQuery.noConflict();
+var $jq = jQuery;
+
 Ext.application({
     name: 'MyApp',
 

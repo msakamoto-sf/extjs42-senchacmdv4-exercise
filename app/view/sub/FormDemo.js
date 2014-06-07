@@ -38,7 +38,13 @@ Ext.define("MyApp.view.sub.FormDemo", {
     this.buttons = [
     {
       text: 'iconCls demo',
-      iconCls: 'myapp-icon-accept'
+      iconCls: 'myapp-icon-accept',
+      handler: function() {
+        var greetings = [ "hello", "good", "morning" ];
+        $jq.each(greetings, function(k, v) {
+            console.log('greetings[' + k + ']=' + v);
+        });
+      }
     },
     {
       text: 'Show MessageBox',
