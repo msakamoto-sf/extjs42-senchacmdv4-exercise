@@ -35,6 +35,20 @@ Ext.define("MyApp.view.sub.FormDemo", {
       name: 'dob',
       maxValue: new Date()
     }];
+    this.buttons = [
+    {
+      text: 'Show MessageBox',
+      icon: 'resources/images/app/star.png',
+      handler: function() {
+        Ext.Msg.show({
+          title: 'Info',
+          msg: 'Message Box with custom icon',
+          buttons: Ext.MessageBox.OK,
+          icon: Ext.MessageBox.INFO
+        });
+      }
+    }
+    ];
     this.callParent();
   }
 });
