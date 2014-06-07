@@ -37,6 +37,10 @@ Ext.define("MyApp.view.sub.FormDemo", {
     }];
     this.buttons = [
     {
+      text: 'iconCls demo',
+      iconCls: 'myapp-icon-accept'
+    },
+    {
       text: 'Show MessageBox',
       icon: 'resources/images/app/star.png',
       handler: function() {

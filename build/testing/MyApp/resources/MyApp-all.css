@@ -19632,3 +19632,9 @@ body.x-nbr .x-panel-header-light-framed-collapsed-left-frameInfo {
 .x-resizable-pinned .x-resizable-handle-southwest {
   background-position: 2px -2px;
 }
+
+/* including package MyApp */
+/* line 1, ../../../../sass/src/Application.scss */
+.myapp-icon-accept {
+  background-image: url(images/app/accept.png);
+}
